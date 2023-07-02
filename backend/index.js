@@ -54,6 +54,15 @@ app.get("/",(req,res)=>{
 app.use("/auth",authRoutes);
 app.use("/song",songRoutes);
 app.use("/playlist",playlistRoutes);
+if(process.env.NODE_ENV=='production'){
+  const path = require('path')
+
+  app.get('/',(res,req)=>{
+    app.use(express.static((path.resolve(__dirname),'..','frontend','bulid','index.html')))
+    
+    res.sendFile(path.resolve(__dirname),'..','frontend','bulid','index.html')
+  })
+}
 app.listen(PORT, ()=>{
     console.log("app in running on port " + PORT);
 })
