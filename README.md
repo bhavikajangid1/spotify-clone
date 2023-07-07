@@ -34,26 +34,26 @@ To run the Spotify Clone project locally, follow these steps:
 2. Navigate to the project directory: `cd spotify-clone`
 3. Install dependencies for the frontend:
 
-    ```cd client
+    ```cd frontend
        npm install
     ```
 
 4. Install dependencies for the backend:
 
     ```
-    cd ../server
+    cd ../backend
     npm install
     ``` 
 5. Set up the environment variables:
-- Create a `.env` file in the `server` directory.
+- Create a `.env` file in the `backend` directory.
 - Add the following variables:
   ```
   MONGODB_URI=your_mongodb_uri
   JWT_SECRET=your_jwt_secret
   ```
 6. Start the development servers:
-- For the frontend, run `npm start` in the `client` directory.
-- For the backend, run `npm start` in the `server` directory.
+- For the frontend, run `npm start` in the `frontend` directory.
+- For the backend, run `npm start` in the `backend` directory.
 
 The project will be accessible at `http://localhost:3000`.
 
