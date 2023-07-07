@@ -34,7 +34,7 @@ To run the Spotify Clone project locally, follow these steps:
 3. Install dependencies for the frontend:
 
     ```cd frontend
-       npm install
+    npm install
     ```
 
 4. Install dependencies for the backend:
