@@ -11,7 +11,6 @@ A Spotify clone built with React.js, Express.js, and MongoDB. This project allow
 - [API Endpoints](#api-endpoints)
 - [Database Schema](#database-schema)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -105,11 +104,6 @@ Contributions to the Spotify Clone project are welcome! If you would like to con
 5. Submit a pull request detailing your changes.
 
 Please make sure to follow the project's code style and guidelines.
-
-## License
-
-The Spotify Clone project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this project.
-
 
 
 
